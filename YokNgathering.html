@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Beranda</title>
+    <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- style css -->
+    <!-- Style css -->
+    <link rel="stylesheet" href="public/assets/css/main.css">
+    <!-- style js -->
+    <script src="public/assets/js/style.js" defer></script>
+
+  </head>
+  <body>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">myPortfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tentangsaya.html">Tentang</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Portofolio
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="webgis.html">SIPP WebGIS 2024</a></li>
+                            <li><a class="dropdown-item" href="YokNgathering.html">YokNGathering 2023</a></li>
+                            <li><a class="dropdown-item" href="logtelepon.html">Log Telepon 2023</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="keahlian.html">Keahlian</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- main -->
+    <div class="main">
+
+        <div class="row mt-4">
+            <div class="col-12">
+                <div class="card bg-dark text-white p-4 shadow">
+                    <!-- Informasi Proyek -->
+                    <p class="mb-2"><strong>Nama :</strong> YokNgathering</p>
+                    <p class="mb-3"><strong>Tools :</strong> Codeigniter, Booststrap</p>
+
+                    <!-- Carousel Auto Play -->
+                    <div class="row mt-4">
+                        <div class="col-12">
+                            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+
+                                    <div class="carousel-item active">
+                                        <div class="d-flex justify-content-center align-items-center" style="height: 400px;">
+                                            <img src="public/assets/img/yokngathering/homepage.JPG" class="d-block" alt="laravel" style="max-height: 100%; max-width: 100%;">
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <div class="d-flex justify-content-center align-items-center" style="height: 400px;">
+                                            <img src="public/assets/img/yokngathering/2.MenuPesanan.JPG" class="d-block" alt="example1" style="max-height: 100%; max-width: 100%;">
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <div class="d-flex justify-content-center align-items-center" style="height: 400px;">
+                                            <img src="public/assets/img/yokngathering/3.Login.JPG" class="d-block" alt="example1" style="max-height: 100%; max-width: 100%;">
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <div class="d-flex justify-content-center align-items-center" style="height: 400px;">
+                                            <img src="public/assets/img/yokngathering/4.Register.JPG" class="d-block" alt="example1" style="max-height: 100%; max-width: 100%;">
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Carousel -->
+
+                    <p class="mb-2 mt-2"><strong>Deskripsi</strong></p>
+                    <p class="mb-3">
+                        YokNgathering adalah aplikasi hasil dari projek tim 3 orang dengan peran masing-masing yaitu, data analyst,
+                        back end, dan saya sendiri sebagai front end. Untuk mengikuti event Fipex#4 pameran karya perangkat lunak 
+                        mahasiswa UAD, tim kami mengambil tema pemesanan cathering. Tujuan dibuatnya aplikasi ini untuk memberikan
+                        ide bagaimana jika jasa cathering bisa dipesan secara online melalui aplikasi berbasis web.
+                    </p>
+
+                    <p class="mb-3">
+                        Dalam pengembangan aplikasi ini, saya dan tim mengawalinya dengan melakukan pengumpulan data melalui
+                        wawancara langsung dengan salah satu pelaku usaha cathering di Ledoksari, Wonosari, Gunungkidul, dengan
+                        tujuan data wawancara tersebut bisa menjadi dasar bagi data analyst untuk memperkirakan
+                        kebutuhan data pengguna, keperluan fitur pada desain mock up, hingga menjadi prototype sebelum dikembangan dalam bentuk source code.
+                        Untuk pembuatan desain saya menggunakan figma, setelah desain sudah jadi, masuklah ke tahap pengembangan kode
+                        program aplikasi dan inilah pertama kali saya kenal dengan framework codeigniter karena saran dari dosen.
+                    </p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- akhir main -->
+
+    <!-- Footer -->
+    <div class="footer py-5" style="background-color: #111; color: #ccc;">
+        <div class="container">
+            <div class="row">
+
+                <!-- Tentang -->
+                <div class="col-md-4 mb-3">
+                    <h5>Tentang Saya</h5>
+                    <p>
+                        Muhammad Dirfas Haidar<br>
+                        Fresh Graduate / Web Developer / QA Enthusiast.<br>
+                        Membangun aplikasi web modern dan responsif.
+                    </p>
+                </div>
+
+                <!-- Link Penting -->
+                <div class="col-md-4 mb-3">
+                    <h5>Link Penting</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="tentangsaya.html" class="text-decoration-none text-light">Tentang</a></li>
+                        <li><a href="projek.html" class="text-decoration-none text-light">Portofolio</a></li>
+                        <li><a href="kontak.html" class="text-decoration-none text-light">Kontak</a></li>
+                    </ul>
+                </div>
+
+                <!-- Sosial Media -->
+                <div class="col-md-4 mb-3">
+                    <h5>Sosial Media</h5>
+                    <a href="#" class="text-light me-3" target="_blank"><i class="bi bi-github" ></i> GitHub</a><br>
+                    <a href="https://www.linkedin.com/in/m-dirfas-haidar/" class="text-light me-3" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a><br>
+                    <a href="https://www.instagram.com/haidarselesaikkn/" class="text-light me-3" target="_blank"><i class="bi bi-instagram"></i> Instagram</a>
+                </div>
+
+            </div>
+
+            <hr style="border-color: #444;">
+
+            <div class="text-center">
+                <p class="mb-0">&copy; 2025 Muhammad Dirfas Haidar. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+    <!-- akhir footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

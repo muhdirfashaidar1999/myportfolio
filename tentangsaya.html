@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Beranda</title>
+     <!-- Bootstrap 5.3 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- Style css -->
+    <link rel="stylesheet" href="public/assets/css/main.css">
+    <!-- style js -->
+    <script src="public/assets/js/style.js" defer></script>
+
+  </head>
+  <body>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">myPortfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Beranda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tentangsaya.html">Tentang</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">
+                            Portofolio
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="webgis.html">SIPP WebGIS 2024</a></li>
+                            <li><a class="dropdown-item" href="YokNgathering.html">YokNGathering 2023</a></li>
+                            <li><a class="dropdown-item" href="logtelepon.html">Log Telepon 2023</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="keahlian.html">Keahlian</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- main -->
+    <div class="main">
+
+        <!-- Tentang Saya -->
+        <div class="row justify-content-center text-center mt-5">
+
+            <!-- Foto Profil -->
+            <div class="col-12 mb-4">
+                <img src="public/assets/img/dirfasfullbg.jpg" 
+                    class="rounded-circle shadow" 
+                    alt="Foto Saya"
+                    style="width: 180px; height: 180px; object-fit: cover;">
+            </div>
+
+            <!-- Deskripsi -->
+            <div class="col-md-8">
+                <h2 class="fw-bold mb-3">Tentang Saya</h2>
+
+                <p style="font-size: 1.1rem; line-height: 1.7;">
+                    Saya <b>Muhammad Dirfas Haidar</b>, lulusan Universitas Ahmad Dahlan, jurusan Sistem Informasi angkatan 2018.
+                    Memiliki ketertarikan pada bidang <b>Web Development</b> dan <b>Bug Hunting</b> atau <b>Quality Assurance</b>.  
+                    Berpengalaman membangun aplikasi berbasis web menggunakan teknologi modern seperti
+                    Laravel, Bootstrap, dan beberapa tools pendukung lainnya.
+
+                    <br><br>
+
+                    Saya selalu berusaha menciptakan aplikasi yang <b>responsif, bersih, mudah digunakan</b>, dan memiliki
+                    struktur kode yang rapi. Selain itu, saya juga tertarik dalam proses pengujian perangkat lunak untuk 
+                    memastikan kualitas sistem yang optimal.
+
+                    <br><br>
+
+                    Saat ini saya terus belajar dan mengembangkan kemampuan untuk menjadi developer yang lebih baik, siap untuk mempelajari
+                    hal baru serta siap berkontribusi pada proyek maupun tim.
+                </p>
+
+                <!-- Hard Skill -->
+                <h4 class="fw-bold mt-4">Hard Skill</h4>
+                <ul class="list-unstyled" style="font-size: 1.1rem; line-height: 1.8;">
+                    <li>• Laravel (Routing, Controller, Blade, Middleware, Auth, Spatie Permission)</li>
+                    <li>• Bootstrap 5 (Responsive UI, Layouting, Styling)</li>
+                    <li>• MySQL (Database Development)</li>
+                    <li>• WebGIS (Leaflet JS, Map Tiles, Marker Layering)</li>
+                    <li>• API Integration (REST API)</li>
+                    <li>• Basic Quality Assurance (Test Case, Bug Reporting, Exploratory Testing)</li>
+                </ul>
+
+                <!-- Soft Skill -->
+                <h4 class="fw-bold mt-4">Soft Skill</h4>
+                <ul class="list-unstyled" style="font-size: 1.1rem; line-height: 1.8;">
+                    <li>• Pemecahan Masalah</li>
+                    <li>• Cek Detail</li>
+                    <li>• Kerjasama</li>
+                    <li>• Analisis</li>
+                    <li>• Adaptasi</li>
+                    <li>• Siap update ilmu baru</li>
+                </ul>
+
+            </div>
+
+        </div>        
+
+    </div>
+    <!-- akhir main -->
+
+    <!-- Footer -->
+    <div class="footer py-5" style="background-color: #111; color: #ccc;">
+        <div class="container">
+            <div class="row">
+
+                <!-- Tentang -->
+                <div class="col-md-4 mb-3">
+                    <h5>Tentang Saya</h5>
+                    <p>
+                        Muhammad Dirfas Haidar<br>
+                        Fresh Graduate / Web Developer / QA Enthusiast.<br>
+                        Membangun aplikasi web modern dan responsif.
+                    </p>
+                </div>
+
+                <!-- Link Penting -->
+                <div class="col-md-4 mb-3">
+                    <h5>Link Penting</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="tentangsaya.html" class="text-decoration-none text-light">Tentang</a></li>
+                        <li><a href="projek.html" class="text-decoration-none text-light">Portofolio</a></li>
+                        <li><a href="kontak.html" class="text-decoration-none text-light">Kontak</a></li>
+                    </ul>
+                </div>
+
+                <!-- Sosial Media -->
+                <div class="col-md-4 mb-3">
+                    <h5>Sosial Media</h5>
+                    <a href="#" class="text-light me-3" target="_blank"><i class="bi bi-github" ></i> GitHub</a><br>
+                    <a href="https://www.linkedin.com/in/m-dirfas-haidar/" class="text-light me-3" target="_blank"><i class="bi bi-linkedin"></i> LinkedIn</a><br>
+                    <a href="https://www.instagram.com/haidarselesaikkn/" class="text-light me-3" target="_blank"><i class="bi bi-instagram"></i> Instagram</a>
+                </div>
+
+            </div>
+
+            <hr style="border-color: #444;">
+
+            <div class="text-center">
+                <p class="mb-0">&copy; 2025 Muhammad Dirfas Haidar. All rights reserved.</p>
+            </div>
+        </div>
+    </div>
+    <!-- akhir footer -->
+
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
