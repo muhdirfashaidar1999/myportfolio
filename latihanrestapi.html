@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>App Perpustakaan(Latihan RESTful API)</title>
+    <!-- Bootstrap 5.3.8-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="public/assets/css/main.css">
+
+
+</head>
+
+
+<body>
+
+    <!-- Navbar -->
+    <div id="navbar"></div>
+    <!-- End Of Navbar -->
+
+    <div class="layout">
+        <!-- Sidebar -->
+        <div id="sidebar"></div>
+        <!-- End of Sidebar -->
+        
+
+
+        <!-- ========== CONTENT ========== -->
+        <div class="main">
+        <div class="row mt-4">
+            <div class="col-12">
+                <div class="card bg-dark text-white p-4 shadow">
+                    <!-- Informasi Proyek -->
+                    <p class="mb-2"><strong>Nama :</strong> App Perpustakaan(Latihan RESTful API)</p>
+                    <p class="mb-3"><strong>Tools :</strong> Laravel, Postman</p>
+
+
+                    <p class="mb-2 mt-2"><strong>Deskripsi</strong></p>
+                    <p class="mb-3">
+                        Aplikasi Peminjaman Perpustakaan merupakan aplikasi yang saya buat untuk berlatih membuat RESTful API
+                        berdasarkan <i>logika bisnis</i> dan <i>Eloquent Relationship RDBMS</i>. Selain itu dengan aplikasi ini
+                        saya bisa berlatih melakukan testing endpoint dengan bantuan <i>Postman</i>. Apa yang sajikan aplikasi ini
+                        masih berupa back-code yang masih terus dikembangkan.
+                    </p>
+
+                    <p class="mb-2 mt-2 text-center"><strong>Controller</strong></p>
+                    <!-- Carousel Auto Play -->
+                    <div class="row">
+                        <div class="col-12">
+                            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+
+                                    <div class="carousel-item active">
+                                        <div class="d-flex justify-content-center align-items-center" style="height: 400px;">
+                                            <img src="public/assets/img/latihanrestapi/bukustore.png" class="d-block" alt="bukustore" style="max-height: 100%; max-width: 100%;">
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <div class="d-flex justify-content-center align-items-center" style="height: 400px;">
+                                            <img src="public/assets/img/latihanrestapi/bukuindex.png" class="d-block" alt="bukuindex" style="max-height: 100%; max-width: 100%;">
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <div class="d-flex justify-content-center align-items-center" style="height: 400px;">
+                                            <img src="public/assets/img/latihanrestapi/bukushow.png" class="d-block" alt="bukushow" style="max-height: 100%; max-width: 100%;">
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <div class="d-flex justify-content-center align-items-center" style="height: 400px;">
+                                            <img src="public/assets/img/latihanrestapi/bukuupdate.png" class="d-block" alt="bukuupdate" style="max-height: 100%; max-width: 100%;">
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <div class="d-flex justify-content-center align-items-center" style="height: 400px;">
+                                            <img src="public/assets/img/latihanrestapi/bukupatchupdate.png" class="d-block" alt="bukupatchupdate" style="max-height: 100%; max-width: 100%;">
+                                        </div>
+                                    </div>
+
+                                    <div class="carousel-item">
+                                        <div class="d-flex justify-content-center align-items-center" style="height: 400px;">
+                                            <img src="public/assets/img/latihanrestapi/bukudestroy.png" class="d-block" alt="bukudestroy" style="max-height: 100%; max-width: 100%;">
+                                        </div>
+                                    </div>                                    
+
+                                </div>
+
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Previous</span>
+                                </button>
+
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                    <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Carousel -->
+
+                    <p class="mb-3">
+                        <ul>
+                            <li>BukuController : function index, create, show($id), updated, patchUpdate, destroy(id)</li>
+                            <li>PeminjamanController : function index, create, show($id), kembali($id), kembalikan($id)</li>
+                            <li>AuthController : function login, register</li>
+                        </ul>
+                    </p>
+
+                    <p class="mb-2 mt-2 text-center"><strong>Route</strong></p>
+                    <!-- Carousel Auto Play -->
+                    <div class="row">
+                        <div class="col-12">
+                          
+                            <div class="d-flex justify-content-center align-items-center" style="height: 400px;">
+                                <img src="public/assets/img/latihanrestapi/routeapi.png" class="d-block" alt="bukudestroy" style="max-height: 100%; max-width: 100%;">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Carousel -->
+
+                    <p class="mb-3">
+                        Route ini dibuat di file <i>api.php</i>, yang merupakan hasil instalasi api route bawaan
+                        laravel dengan perintahi <i>"php artisan install:api"</i>. Lalu di dalamnya sudah ada beberapa
+                        endpoint yang saya buat dengan masing-masing method sesuai keperluan.
+                    </p>
+
+                    <p class="mb-2 mt-2 text-center">
+                        <strong>POSTMAN API Testing</strong>
+                    </p>
+                    <!-- Carousel Postman -->
+                    <div class="row">
+                        <div class="col-12">
+                            <div id="carouselPostman" class="carousel slide" data-bs-ride="carousel">
+                                <div class="carousel-inner">
+
+                                    <!-- GET BUku -->
+                                    <div class="carousel-item active">
+                                        <div class="d-flex justify-content-center align-items-center"
+                                            style="height: 400px;">
+                                            <img
+                                                src="public/assets/img/latihanrestapi/getbuku.png"
+                                                class="d-block"
+                                                alt="Postman Login"
+                                                style="max-height: 100%; max-width: 100%;">
+                                        </div>
+                                    </div>
+
+                                    <!-- GET Buku ID-->
+                                    <div class="carousel-item">
+                                        <div class="d-flex justify-content-center align-items-center"
+                                            style="height: 400px;">
+                                            <img
+                                                src="public/assets/img/latihanrestapi/getbuku2.png"
+                                                class="d-block"
+                                                alt="Postman GET Buku"
+                                                style="max-height: 100%; max-width: 100%;">
+                                        </div>
+                                    </div>
+
+                                    <!-- POST Buku -->
+                                    <div class="carousel-item">
+                                        <div class="d-flex justify-content-center align-items-center"
+                                            style="height: 400px;">
+                                            <img
+                                                src="public/assets/img/latihanrestapi/postbuku.png"
+                                                class="d-block"
+                                                alt="Postman POST Buku"
+                                                style="max-height: 100%; max-width: 100%;">
+                                        </div>
+                                    </div>
+
+                                    <!-- PUT Buku -->
+                                    <div class="carousel-item">
+                                        <div class="d-flex justify-content-center align-items-center"
+                                            style="height: 400px;">
+                                            <img
+                                                src="public/assets/img/latihanrestapi/putbuku.png"
+                                                class="d-block"
+                                                alt="Postman GET Detail Buku"
+                                                style="max-height: 100%; max-width: 100%;">
+                                        </div>
+                                    </div>
+
+                                    <!-- PATCH Buku -->
+                                    <div class="carousel-item">
+                                        <div class="d-flex justify-content-center align-items-center"
+                                            style="height: 400px;">
+                                            <img
+                                                src="public/assets/img/latihanrestapi/patchbuku.png"
+                                                class="d-block"
+                                                alt="Postman PUT Buku"
+                                                style="max-height: 100%; max-width: 100%;">
+                                        </div>
+                                    </div>
+
+                                    <!-- Delete Buku -->
+                                    <div class="carousel-item">
+                                        <div class="d-flex justify-content-center align-items-center"
+                                            style="height: 400px;">
+                                            <img
+                                                src="public/assets/img/latihanrestapi/deletebuku.png"
+                                                class="d-block"
+                                                alt="Postman PATCH Buku"
+                                                style="max-height: 100%; max-width: 100%;">
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <!-- Previous -->
+                                <button
+                                    class="carousel-control-prev"
+                                    type="button"
+                                    data-bs-target="#carouselPostman"
+                                    data-bs-slide="prev">
+
+                                    <span
+                                        class="carousel-control-prev-icon"
+                                        aria-hidden="true">
+                                    </span>
+
+                                    <span class="visually-hidden">
+                                        Previous
+                                    </span>
+
+                                </button>
+
+                                <!-- Next -->
+                                <button
+                                    class="carousel-control-next"
+                                    type="button"
+                                    data-bs-target="#carouselPostman"
+                                    data-bs-slide="next">
+
+                                    <span
+                                        class="carousel-control-next-icon"
+                                        aria-hidden="true">
+                                    </span>
+
+                                    <span class="visually-hidden">
+                                        Next
+                                    </span>
+
+                                </button>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <!-- End Carousel Postman -->
+
+                    <p class="mb-3">
+                        Setelah membuat Route, saya melakukan test endpoint menggunakan POSTMAN untuk memastikan apakah mmethod
+                        GET, POST, PUT, PATCH, DELETE sudah berjalan sesuai kebutuhan.
+                    </p>
+                    
+                    <p class="mb-2 mt-2"><strong>Dokumentasi Test Case API</strong></p>
+                    <p class="mb-3">
+                        Selain melakukan testing API di postman, saya juga mendokumentasikan hasil testing di spreeadsheet
+                        Test Case, dengan tujuan untuk berlatih mendokumentasikan hasil test yang berhasil, gagal, atau belum
+                        dijalankan.
+                        <img src="public/assets/img/latihanrestapi/dokumentasi.png" class="d-block" alt="bukudestroy" style="max-height: 100%; max-width: 100%;">
+                        Untuk melihat dokumentasi lebih lengkapnya dapat dilihat pada link dibawah :
+                    </p>
+                    <p>
+                        >> <a href="https://docs.google.com/spreadsheets/d/1MubP7ytARcs40_kZQTyji0w1A3ADcy__RctEEQSJyqg/edit?usp=sharing" class="btn btn-success" target="_blank">Spreadsheet</a>
+                    </p>
+                    
+                    
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    </div>
+
+    <!-- ================= FOOTER ================= -->
+    <div id="footer"></div>
+
+    <!-- JS -->
+    <script src="public/assets/js/include.js"></script>
+    <script src="public/assets/js/style.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
